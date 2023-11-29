@@ -18,50 +18,50 @@ To design a Machine Learning Inference accelerator that will be used in edge dev
 Improve upon existing architectures by optimizing their design and including original ideas.
 
 ## Work Progress
-![Work Progress]()
+![Work Progress](assets/images/wrkpro.jpg)
 
 ## Architecture - Processing Element
-![Architecture - Processing Element]()
+![Architecture - Processing Element](assets/images/archpe.png)
 
 ## Architecture - Top Level
-![Architecture - Top Level]()
+![Architecture - Top Level](assets/images/toparch.png)
 
 ## Approximate Multipliers
  - These are a class of multipliers that improve on speed, power consumption and space with a trade-off in accuracy.
  - These multipliers involve rounding off numbers to the nearest 2^(whole number) and using left shifts and adders to perform the multiplication operation.
 
 ## Dynamic Range Unbiased Multiplier
-![Dynamic Range Unbiased Multiplier]()
+![Dynamic Range Unbiased Multiplier](assets/images/multiplier.png)
 
 ## Operand Modification
-![Operand Modification]()
+![Operand Modification](assets/images/operand.png)
 
 ## PE Final Architecture
-![PE Final Architecture]()
+![PE Final Architecture](assets/images/pefinal.png)
 
 ## RTL Design
-![PE Final Architecture]()
+![PE Final Architecture](assets/images/rtl.png)
 
 ## Integration Testing Architecture
-![Integration Testing Architecture]()
+![Integration Testing Architecture](assets/images/testingarch.png)
 
 ## Verilator Functional Verification
-![Verilator Functional Verification]()
+![Verilator Functional Verification](assets/images/intetest.png)
 
 ## Gaussian Blur - Basic Convolution test
-![Gaussian Blur - Basic Convolution test]()
+![Gaussian Blur - Basic Convolution test](assets/images/guass.png)
 
 ## Integration Testing
-![Integration Testing]()
+![Integration Testing](assets/images/inte.png)
 
 ## Integration Testing (Linux Execution Trace): SW Only
-![Integration Testing (Linux Execution Trace): SW Only]()
+![Integration Testing (Linux Execution Trace): SW Only](assets/images/sw.png)
 
 ## Integration Testing (Linux Execution Trace): SW+HW
-![Integration Testing (Linux Execution Trace): SW+HW]()
+![Integration Testing (Linux Execution Trace): SW+HW](assets/images/hw.png)
 
 ## Optimization on Dataflow
-![Optimization on Dataflow]()
+![Optimization on Dataflow](assets/images/optim.png)
 
 ## References
 1) Y. -H. Chen, T. Krishna, J. S. Emer and V. Sze, "Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks," in IEEE Journal of Solid-State Circuits, vol. 52, no. 1, pp. 127-138, Jan. 2017, doi: 10.1109/JSSC.2016.2616357.
